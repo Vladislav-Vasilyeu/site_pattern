@@ -1,0 +1,358 @@
+.main-content {
+    background-color: #d9d9d9;
+    max-height: 763px;
+    padding-top: 190px;
+    padding-bottom: 292px;
+}
+
+.main-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-title {
+    font-family: "Inter";
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 61px;
+    max-width: 686px;
+    color: #1e1c1f;
+    margin-bottom: 28px;
+}
+
+.main-text {
+    font-family: "Inter";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    max-width: 601px;
+}
+
+.smart {
+    font-family: "Michroma";
+    font-size: 61px;
+    font-weight: 400;
+    line-height: 87px;
+    background: linear-gradient(to right, #fda16e, #a1212b);
+    color: transparent;
+    background-clip: text;
+}
+
+.punch .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 64px;
+    padding-top: 73px;
+    align-items: center;
+}
+
+.punch-title {
+    color: #000000;
+    max-width: 524px;
+    font-weight: 500;
+    font-size: 47px;
+    line-height: 57px;
+}
+
+.punch-title-numbers {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+.number-works,
+.number-products {
+    color: #000000;
+    font-family: "Inter";
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 39px;
+}
+
+.punch-span {
+    font-family: "Michroma";
+    background: linear-gradient(to right, #fda16e, #a1212b);
+    color: transparent;
+    background-clip: text;
+    font-weight: 400;
+    font-size: 53px;
+}
+
+.processes {
+    background-color: #252525;
+    color: #ffffff;
+    max-width: 1334px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.processes .container {
+    display: flex;
+    flex-direction: column;
+}
+
+.processes-title {
+    font-family: "Inter";
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 42px;
+    text-align: center;
+    max-width: 764px;
+    margin-bottom: 54px;
+}
+
+.processes-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 371px);
+    column-gap: 45px;
+    row-gap: 54px;
+}
+
+.process-card-item {
+    padding: 20px;
+    border: 3px solid #bdbdbd;
+    border-radius: 10px;
+}
+
+.process-card-item:hover {
+    transition-property: background-color;
+}
+
+.card-image {
+    max-width: 331px;
+    width: 100%;
+    max-height: 168px;
+    height: 168px;
+    background-color: #bdbdbd;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* .punch .processes + .container {
+    */
+
+.container .punch-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 74px;
+    width: 100%;
+}
+
+.punch-info-item {
+    display: flex;
+    align-items: center;
+    max-width: 488px;
+    border: 3px solid #c7c3c3;
+    border-radius: 10px;
+    padding: 20px;
+    gap: 35px;
+}
+
+.punch-info-text {
+    max-width: 313px;
+    font-family: "Inter";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #000000;
+}
+
+.punch-info-text a {
+    color: #000000;
+}
+
+.punch-info-image {
+    width: 100px;
+    height: 109px;
+    background-color: #d9d9d9;
+    border-radius: 10px;
+}
+
+.slider {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #c7c3c3;
+    position: relative;
+    max-height: 569px;
+    height: 569px;
+    padding-top: 23px;
+    padding-bottom: 41px;
+}
+
+.slider-title {
+    max-width: 644px;
+    font-family: "Inter";
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 42px;
+    text-align: center;
+}
+
+.slider-button {
+    position: absolute;
+}
+
+#right {
+    top: 50%;
+    right: 122px;
+    transform: rotate(180deg);
+}
+
+#left {
+    top: 50%;
+    left: 122px;
+}
+
+.slider-signature {
+    font-family: "Inter";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    text-align: center;
+}
+
+.news .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 0 100px 0;
+}
+
+.news-title {
+    font-family: "Inter";
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 42px;
+    margin-bottom: 37px;
+}
+
+.news-cards {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.news-card-item {
+    max-width: 359px;
+    border: 3px solid #b4b4b4c7;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.news-card-item:hover {
+    color: white;
+    background-color: #000000;
+}
+.news-card-item:hover .news-card-button {
+    background-color: #f89b6b;
+    cursor: pointer;
+}
+
+.news-card-image {
+    background-color: #c7c3c3;
+    width: 319px;
+    height: 168px;
+    border-radius: 10px;
+}
+
+.news-card-signature {
+    position: relative;
+}
+
+.card-signature-text {
+    max-width: 231px;
+    font-family: "Inter";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.card-signature-date {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.news-card-button {
+    position: absolute;
+    bottom: 20px;
+    right: 0;
+    padding: 4px;
+    border: 1px solid #000000;
+    border-radius: 6px;
+    display: flex;
+    align-content: center;
+}
+
+.news-button {
+    margin-top: 40px;
+    font-family: "Inter";
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    border: 1px solid #000000;
+    border-radius: 39px;
+    padding: 10px 39px;
+}
+.news-button:hover {
+    background-color: #000000;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.questions {
+    padding-bottom: 168px;
+}
+
+.questions .container {
+    display: flex;
+    flex-direction: column;
+    gap: 46px;
+}
+
+.question-item-title {
+    background: linear-gradient(to right, #f7996a, #a5262e);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px 20px 50px;
+    border-radius: 10px;
+}
+
+.question-item-faq {
+    font-family: "Michroma";
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 57px;
+    text-align: center;
+}
+
+.question-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px 20px 50px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+}
+
+.question-item-text {
+    font-family: "Inter";
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 36px;
+    text-align: left;
+}
+
+.question-button {
+    padding: 5px;
+    background-color: #000000;
+    border-radius: 6px;
+    cursor: pointer;
+}
